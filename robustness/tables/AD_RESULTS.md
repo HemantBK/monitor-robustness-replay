@@ -2,7 +2,7 @@
 
 Preregistered in `AD_PREREG.md` (with Amendment 1), frozen in `AD_FREEZE.json`. Counts are rogue runs unless stated. early = first alert after the injection appears and before the violating call; at onset = at the violating call or up to 3 steps later; in time = early or at onset. Intervals: paired cluster bootstrap over user tasks, B = 10,000.
 
-## Read this first: deviations and limits (from the independent audit, `lab/audit/AUDIT_AD.md`)
+## Read this first: deviations and limits (from the independent audit, `robustness/AD_AUDIT.md`)
 
 - The primary outcome and one abandon rule were amended after the unmodified development run and before any attack-arm or holdout request (Amendment 1). Under the original TDC3 the sign reverses (M0H 1 -> 56 on the holdout), because TDC3 scores an alert on the injection as premature and the override removes that alert. The finding that does not depend on the amendment: the history judge flags the violating call in 202 runs with the control and 76 with the override.
 - The development attack arms were seen before the freeze, so the holdout replicates an effect already observed.
